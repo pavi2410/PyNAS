@@ -13,15 +13,8 @@
 	<div class="container my-5">
 		<div class="row">
 			<h1 class="text-primary fw-bold">Raspberry Pi NAS Server using Bottle web framework</h1>
-			<div class="p-3">
-				<span class="text-muted">Created by</span>
-        <ul>
-          <li>Pavitra (RA1911003010586)</li>
-          <li>Vikrant (RA1911003010632)</li>
-        </ul>
-      </div>
 		</div>
-		<div class="row align-items-start">
+		<div class="row align-items-start pt-5">
 			<div class="col">
 				<h3>Files <span class="badge rounded-pill bg-primary fs-6">{{len(files) if files else 0}}</span></h3>
 				%if files:
